@@ -4,7 +4,7 @@ import { FaCheck } from 'react-icons/fa'; // Import the checkmark icon from reac
 const Header = () => {
   return (
     <div className='w-full h-screen my-[16rem] md:my-[4rem] flex flex-col justify-center items-center'>
-      <div className='my-12 max-w-6xl  p-8 mx-auto text-center'>
+      <div className='my-12  p-8 mx-auto text-center'>
         <h1 className='text-blue-700 text-2xl sm:text-4xl bg-yellow-400 font-bold p-4'>
           NOTE: THIS TRAINING IS ONLY FOR SERIOUS TRADERS!!
         </h1>
@@ -76,6 +76,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-

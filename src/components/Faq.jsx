@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
   return (
-    <div className='w-full h-full flex items-center justify-center mt-[84rem] md:mt-[32rem]'>
+    <div className='w-full h-full flex items-center justify-center mt-[94rem] md:mt-[42rem] sm:mt-[42rem]'>
       <div className='max-w-6xl  text-center p-8'>
         <h2 className='text-4xl font-bold mb-8'>INNER CIRCLE TRADING CLUB FREQUENTLY ASKED QUESTIONS (FAQ)</h2>
 

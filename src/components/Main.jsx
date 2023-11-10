@@ -4,18 +4,19 @@ import tsud1 from "../assets/tusd1.jpg";
 import tsud2 from "../assets/tusd2.jpg";
 import tsud3 from "../assets/tusd3.jpg";
 import tsud4 from "../assets/tusd5.jpg";
+import YouTube from 'react-youtube';
 
 const Main = () => {
   return (
-    <div className='w-full h-screen flex mt-[110rem] md:mt-[38rem]  justify-center items-center '>
-      <div className='text-center mx-10 max-w-6xl  '>
+    <div className='w-full h-screen flex mt-[110rem] md:mt-[48rem] justify-center items-center'>
+      <div className='text-center max-w-4xl'>
         <h2 className='text-3xl font-bold mb-8 mx-10'>
           <span className='text-yellow-600 p-2'>JOIN THE INNER CIRCLE TRADING CLUB TODAY!!!</span><br/> Rewrite your Financial Success Story...
         </h2>
         <h2 className='text-xl my-2 mb-6'>
           Here are some snippets from the ICTC past records
         </h2>
-        <div className='flex flex-wrap justify-center items-center mx-auto'>
+        <div className='flex flex-wrap justify-center items-center mx-auto bg-gray-300'>
           <img src={tsud1} alt='tsud1' className='w-full md:w-1/2 lg:w-1/4 p-2' />
           <img src={tsud2} alt='tsud2' className='w-full md:w-1/2 lg:w-1/4 p-2' />
           <img src={tsud3} alt='tsud3' className='w-full md:w-1/2 lg:w-1/4 p-2' />
@@ -31,10 +32,30 @@ const Main = () => {
             WHY SHOULD YOU JOIN ICTC?
           </h2>
     
-
           <p className='my-4 mx-2 text-lg'>
             In the face of economic uncertainties, inflation, and the struggle to afford basic necessities, many individuals find themselves trapped in a challenging financial landscape. The Nigerian economy, like many others, is experiencing turbulence that leaves countless people unable to meet their basic needs. But there is a beacon of hope in these trying times, and that beacon is the Inner Circle Trading Club (ICTC).
           </p>
+
+          <div className='grid md:grid-cols-2 gap-4'>
+            <div className='p-4 max-w-full aspect-w-16 aspect-h-9'>
+              <iframe src="https://www.youtube.com/embed/eKz5S8gqr8o?si=SYMS0vhLjLNrftUB" 
+                      title="YouTube video player" frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                       picture-in-picture; web-share" 
+                      allowfullscreen>
+              </iframe>
+            </div>
+            <div className='p-4 max-w-full aspect-w-16 aspect-h-9'>
+              <iframe src="https://www.youtube.com/embed/5qPm1f5l0yc?si=Tt12sr6pCDDHQhIX" 
+                      title="YouTube video player" frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write;
+                       encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+
 
           <ul className='list-disc list-inside text-left'>
             <li className='flex items-start mb-4'>
