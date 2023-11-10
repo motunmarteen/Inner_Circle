@@ -7,10 +7,10 @@ import tsud4 from "../assets/tusd5.jpg";
 
 const Main = () => {
   return (
-    <div className='w-full h-screen flex pt-[112rem] sm:pt-[48rem] justify-center items-center '>
-      <div className='text-center mx-10 '>
+    <div className='w-full h-screen flex mt-[110rem] md:mt-[38rem]  justify-center items-center '>
+      <div className='text-center mx-10 max-w-6xl  '>
         <h2 className='text-3xl font-bold mb-8 mx-10'>
-          <span className='text-yellow-600 p-2'>JOIN THE INNER CIRCLE TRADING CLUB TODAY!!!</span> Rewrite your Financial Success Story...
+          <span className='text-yellow-600 p-2'>JOIN THE INNER CIRCLE TRADING CLUB TODAY!!!</span><br/> Rewrite your Financial Success Story...
         </h2>
         <h2 className='text-xl my-2 mb-6'>
           Here are some snippets from the ICTC past records

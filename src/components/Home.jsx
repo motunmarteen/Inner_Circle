@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className='max-w-full pt-8 md:pt-28 h-full mx-auto justify-center'>
-      <div className='bg-gray-300 text-black md:flex grid md:grid-cols-3 gap-8 mx-auto p-4 md:p-8'>
+    <div className='max-w-full pt-8 md:pt-28 h-full mx-auto justify-center bg-gray-300 max'>
+      <div className='max-w-6xl  text-center text-black md:flex grid md:grid-cols-3 gap-8 mx-auto p-4 md:p-8'>
         <div className='md:w-full'>
           <h2 className='text-3xl font-bold mb-4 mx-2'>
             WHAT IS IT?
