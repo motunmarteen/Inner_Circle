@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='text-white bg-[#030355] max-w-screen-2xl'>
+    <div className='text-white bg-[#030355] w-screen'>
       <div className='max-w-screen-xl mx-auto px-4'>
         <div className='flex justify-center mx-auto items-center h-24'>
         <h1 className='w-full text-4xl text-white font-bold '>ICTC.</h1>

@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 const Hero = () => {
   return (
-    <div className='text-white bg-[#030355] min-w-full min-h-screen grid items-center justify-center'>
+    <div className='text-white bg-[#030355] w-screen min-h-screen grid items-center justify-center'>
       <div className='max-w-4xl mx-auto px-4 text-center justify-center grid'>
         <Typed strings={['Your Earning Path to Endless']} className='md:text-5xl text-3xl font-bold' typeSpeed={40} />
       
