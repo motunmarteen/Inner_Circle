@@ -1,18 +1,19 @@
 import React from 'react'
-import Header from './components/Header'
-import Home from './components/Home'
-import Main from './components/Main'
-import Faq from './components/Faq'
-import WhatsappIcon from './components/WhatsappIcon'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import YouTube from './components/Youtube'
+import Features from './components/Features'
+import Offerings from './components/Offerings'
+
 
 const App = () => {
   return (
-    <div className='w-full h-full'>
-      <Header/>
-      <Home/>
-      <Main/>
-      <Faq/>
-      <WhatsappIcon/>
+    <div>
+      <Navbar/>
+      <Hero/>
+      <YouTube/>
+      <Features/>
+      <Offerings/>
     </div>
   )
 }
