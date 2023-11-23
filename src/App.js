@@ -7,6 +7,7 @@ import Offerings from './components/Offerings'
 import Why from './components/Why'
 import Withdrawals from './components/Withdrawals'
 import About from './components/About'
+import Faq from './components/FAQ\'s/Faq'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <About/>
       <Why/>
       <Withdrawals/>
+      <Faq/>
     </div>
   )
 }
