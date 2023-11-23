@@ -41,26 +41,3 @@
   }
 }
 
-.card-flip {
-  animation-name: flip;
-  animation-duration: 1s;
-  transform-style: preserve-3d;
-}
-
-.card-front,
-.card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.card-front {
-  z-index: 2;
-}
-
-.card-back {
-  transform: rotateY(180deg);
-}
-
-
