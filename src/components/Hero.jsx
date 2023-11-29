@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 const Hero = () => {
   return (
     <div className='text-white bg-[#030355] w-screen min-h-screen grid items-center justify-center'>
-      <div className='px-4 max-w-[1200px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+      <div className='px-4 max-w-[1000px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <Typed
           strings={['Your Earning Path to Endless']}
           className='sm:text-4xl md:text-8xl text-2xl font-bold mx-auto'
@@ -19,6 +19,7 @@ const Hero = () => {
             'Success',
             'Joy',
           ]}
+
           typeSpeed={40}
           backSpeed={50}
           attr="placeholder"
@@ -26,7 +27,8 @@ const Hero = () => {
         >
           <input
             type="text"
-            className='ml-[30%] sm:ml-0 bg-transparent md:text-5xl text-3xl font-bold text-white outline-none cursor-none mt-4'
+            className='ml-[30%] sm:ml-0 bg-transparent md:text-5xl text-3xl font-bold text-white 
+            outline-none cursor-none mt-4'
           />
         </Typed>
         <p className='mt-12 mx-10 sm:mx-0 text-2xl'>We help you unlock prosperity by helping you achieve up <br/> to 30% monthly return lifting no finger.</p>

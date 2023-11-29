@@ -31,8 +31,8 @@ const Offerings = () => {
               <div className='card-content p-4 h-full flex-col justify-center items-center'>
                 <div className='text-2xl md:text-4xl flex flex-col justify-center items-center mt-14'>
                   <h2 className='group-hover:hidden mb-10'>AI-Powered</h2>
-                  <div className='border-2 border-yellow-400 group-hover:hidden w-20'></div>
-                  <h2 className='group-hover:hidden text-2xl md:text-4xl mt-2'>Risk Management</h2>
+                  <div className='border-2 border-yellow-400 group-hover:hidden w-20 mb-2'></div>
+                  <h2 className='group-hover:hidden text-2xl md:text-4xl mt-4'>Risk Management</h2>
                 </div>
                 <div className='max-w-4xl'>
                   <p className='hidden group-hover:flex text-lg p-4 mt-0 md:text-2xl 

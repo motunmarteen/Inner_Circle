@@ -33,7 +33,7 @@ export const ExpendableColumn = ({question, isOpen, toggle}) => {
     )
 }
 export const TextSection = ({text}) => {
-    return <div className='text-container text-yellow-800  mx-8'>
+    return <div className='text-container text-yellow-700  mx-8'>
       <div>{text}</div>
     </div>
 }
